@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IA Academic Support - CIPELE</title>
      <link rel="icon" href="https://raw.githubusercontent.com/doinGlobalContents/MGPPIA-COORDINACIONDECURSADO/refs/heads/main/Favicon%20AI.ico" type="image/x-icon">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <style>
         body {
             font-family: POPPINS, sans-serif;
@@ -19,18 +20,19 @@
             background-size: cover;
             
         }
-
+        
         header {
             width: 100%;
             display: flex;
             justify-content: center;
             align-items: center;
-            background-color: #f5f5f5;
+            background: linear-gradient(to bottom, #dddddd, #ffffff);
             border-bottom: 1px solid #ddd;
             box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
             height: 100px;
-            padding-top: 7px;
-            padding-bottom: 7px;
+            padding-top: 19px;
+            padding-bottom: 19px;
+            box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
         }
 
         h1 {
@@ -79,8 +81,9 @@
         .avatars-container {
             display: flex;
             flex-direction: column;
-            gap: 20px;
+            gap: 10px;
             align-items: center;
+            
         }
 
         .avatar-container {
@@ -110,7 +113,7 @@
         
         footer {
     text-align: center;
-    font-size: 0.8em;
+    font-size: 0.7em;
     color: #f7f0f0;
     margin-top: 30px;
     padding: 10px;
@@ -191,24 +194,50 @@
 }
 .instructivo-btn {
         margin-top: 5px;
-        padding: 10px 20px;
-        background-color: #99cc06;
+        padding: 12px 22px;
+        background: linear-gradient(to bottom, #99cc06, #b2d83d);
+        box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
         color: white;
         border: none;
         font-weight: bold;
         font-family: PPOPPINS, sans-serif;
-        border-radius: 5px;
+        border-radius: 10px;
         font-size: 16px;
         cursor: pointer;
         transition: background-color 0.3s ease;
         text-align: center;
         width: 100%;
-        max-width: 300px;
+        max-width: 330px;
     }
     
     .instructivo-btn:hover {
-        background-color: #7da904;
+        background: linear-gradient(to bottom, #262626, #373737);
     }
+    
+    .contacto
+        {
+            font-family: POPPINS, sans-serif;
+            color: #ffffff;
+            
+        }
+        .contenedor-contacto {
+        background: linear-gradient(to bottom, #262626, #373737);
+         border: none;
+         border-radius: 10px;
+        font-size: 14px;
+        transition: background-color 0.3s ease;
+        text-align: center;
+        width: 100%;
+        max-width: 285px;
+        box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+         }
+
+         i {
+      margin-right: 5px;
+        color: #99cc06;
+
+        }
+        
 
         @media (max-width: 600px) {
             
@@ -217,6 +246,7 @@
         flex-direction: column;
         height: auto; /* Ajusta automáticamente la altura */
         background: #000107;
+        padding-bottom: 5px;
     }
 
    .logonegro {
@@ -249,7 +279,7 @@
             .avatar-container {
                 width: 99%;
                 height: 500px;
-                margin-bottom: 20px;
+                margin-bottom: 5px;
             }
             .avatar-container h2 {
                 font-size: 1em;
@@ -259,7 +289,7 @@
                 width: 100%;
         }
              footer {
-        font-size: 8px; /* Reduce el tamaño de fuente del footer */
+        font-size: 7px; /* Reduce el tamaño de fuente del footer */
         padding: 5px;
         margin-top: 30px;
     
@@ -277,13 +307,32 @@
             width: 100%;
             font-size: 13px;
                    }
+    
+    
+      .contacto
+        {
+            font-family: POPPINS, sans-serif;
+            color: #ffffff;
+            font-weight: bold;
+        }
+        .contenedor-contacto {
+            background: linear-gradient(to bottom, #262626, #373737);
+         border: none;
+         border-radius: 10px;
+        font-size: 11px;
+        transition: background-color 0.3s ease;
+        text-align: center;
+        width: 100%;
+        max-width: 235px;
+         }
+
     }
     </style>
 </head>
 <body>
     <header>
-        <img class="logonegro" src="AI-Academy-Logo.png" alt="AI Academy Logo">
-        <img class="logoblanco" src="AI-Academy-logo-white.png" alt="AI Academy Logo">
+       <a href="https://ai-academy.doinglobal.com/" target="_blank"><img class="logonegro" src="AI-Academy-Logo.png" alt="AI Academy Logo"></a> 
+       <a href="https://ai-academy.doinglobal.com/" target="_blank"><img class="logoblanco" src="AI-Academy-logo-white.png" alt="AI Academy Logo"></a> 
     </header>
     <h1>Certificación Internacional Profesor de Español como Lengua Extranjera</h1>
      <div class="main-container">
@@ -354,13 +403,18 @@
              <a href="https://drive.google.com/file/d/1_KaweIv_y8UnoW-kehvjmUHizciuPfwn/view?usp=sharing" target="_blank">
                 <button class="instructivo-btn">Instructivo "Aplicación al Aula"</button>
             </a>
+            <div class="contenedor-contacto">
+                <p class="contacto">
+                    <i class="fas fa-envelope"></i> camila.graciano@doinglobal.com
+                </p> 
+            </div>                    
          </div>
         </div>
          
         </div>
     </div>
      <footer>
-        Este asistente virtual es un prototipo desarrollado en el laboratorio de investigación de AI Academy by doinGlobal. Puede generar respuestas inexactas o confusas, por lo que se recomienda verificar la información.
+        Este asistente virtual es un prototipo desarrollado en el laboratorio de investigación de AI Academy by doinGlobal. Tanto el Avatar como el ChatBot pueden cometer errores. doinGlobal no utiliza datos de estos recursos para entrenar sus modelos.
     </footer>
     <div id="popup" class="popup">
         <div class="popup-content">
